@@ -226,12 +226,9 @@ df.head(10)
 
 - This code snippet invokes the logic you created as a data preparation package. Depending on the context in which this code is run, df represents the various kinds of dataframes. A [pandas DataFrame](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html) is used when executed in Python runtime, or a [Spark DataFrame](https://spark.apache.org/docs/latest/sql-programming-guide.html) is used when executed in a Spark context.
 
-- For more information on how to prepare data in Azure Machine
-    Learning Workbench, see the [Get started with data
-    preparation](https://docs.microsoft.com/en-us/azure/machine-learning/preview/data-prep-getting-started) guide.
+- For more information on how to prepare data in Azure Machine Learning Workbench, see the [Get started with data preparation](https://docs.microsoft.com/en-us/azure/machine-learning/preview/data-prep-getting-started) guide.
 
 <h2> Build a model
--------------
 
 ### Step \#1: Review iris\_sklearn.py and the configuration files
 
