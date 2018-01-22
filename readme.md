@@ -246,18 +246,12 @@ df.head(10)
 >**Note**
 >
 >Use the iris.dprep data preparation package that comes with the sample project, which should be the same as the iris-1.dprep file you built in part 1 of this tutorial.
-
-    - Adds random features to make the problem more difficult to solve. Randomness is necessary because Iris is a small data set that's easily classified with nearly 100% accuracy.
-
-    - Uses the [scikit-learn](http://scikit-learn.org/stable/index.html) machine learning library to build a logistic regression model.
-
-    - Serializes the model by inserting the [pickle](https://docs.python.org/2/library/pickle.html) library into a file in the outputs folder. The script then loads it and deserializes it back into memory.
-
-    - Uses the deserialized model to make a prediction on a new record.
-
-    - Plots two graphs, a confusion matrix and a multi-class receiver operating characteristic (ROC) curve, by using the [matplotlib](https://matplotlib.org/) library, and then saves them in the outputs folder.
-
-    - The run\_logger object is used throughout to record the regularization rate and to model accuracy into the logs. The logs are automatically plotted in the run history.
+>- Adds random features to make the problem more difficult to solve. Randomness is necessary because Iris is a small data set that's easily classified with nearly 100% accuracy.
+>- Uses the [scikit-learn](http://scikit-learn.org/stable/index.html) machine learning library to build a logistic regression model.
+> - Serializes the model by inserting the [pickle](https://docs.python.org/2/library/pickle.html) library into a file in the outputs folder. The script then loads it and deserializes it back into memory.
+>- Uses the deserialized model to make a prediction on a new record.
+>- Plots two graphs, a confusion matrix and a multi-class receiver operating characteristic (ROC) curve, by using the [matplotlib](https://matplotlib.org/) library, and then saves them in the outputs folder.
+>- The run\_logger object is used throughout to record the regularization rate and to model accuracy into the logs. The logs are automatically plotted in the run history.
 
 ### Step \#2: Execute iris\_sklearn.py script in a local environment
 
