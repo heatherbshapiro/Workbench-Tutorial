@@ -9,7 +9,7 @@ Introduction and setup
 here*](https://docs.microsoft.com/en-us/azure/machine-learning/preview/tutorial-classifying-iris-part-1).
 We'll refer to these throughout the lab.
 
-***NOTE***: These steps must be completed ***prior*** to attempting this
+>***NOTE***: These steps must be completed ***prior*** to attempting this
 workshop.
 
 - You will need a Microsoft Azure account. You can use a production
@@ -243,9 +243,9 @@ df.head(10)
     - Loads the data preparation package **iris.dprep** to create a [pandas
         DataFrame](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html).
 
-**Note**
-
-    Use the iris.dprep data preparation package that comes with the sample project, which should be the same as the iris-1.dprep file you built in part 1 of this tutorial.
+>**Note**
+>
+>Use the iris.dprep data preparation package that comes with the sample project, which should be the same as the iris-1.dprep file you built in part 1 of this tutorial.
 
     - Adds random features to make the problem more difficult to solve. Randomness is necessary because Iris is a small data set that's easily classified with nearly 100% accuracy.
 
@@ -301,7 +301,9 @@ of the running script. To close the stdout text,select the **Close** (**x**) b
     - **Logs**
 
 When the run is finished, the pop-up window shows the following results:
-***Note***
+
+>***Note***
+>
 > Because we introduced some randomization into the training set earlier, your exact results might vary from the results shown here.
 
 ```bash
@@ -453,9 +455,9 @@ computer.
 You can use *local mode* for development and testing. The Docker engine must be run locally to complete the following steps to operationalize the model. You can use the -h flag at the end of the commands for
 command Help.
 
-***Note***
-
-If you don't have the Docker engine locally, you can still proceed by creating a cluster in Azure for deployment. Just be sure to delete the
+>***Note***
+>
+>If you don't have the Docker engine locally, you can still proceed by creating a cluster in Azure for deployment. Just be sure to delete the
 cluster after the tutorial so you don't incur ongoing charges.
 
 1.  Open the command-line interface (CLI). In the Azure Machine Learning Workbench application, on the **File** menu, select **Open Command Prompt**.
