@@ -91,10 +91,8 @@ Use the Azure portal to provision Azure Machine Learning accounts:
     <img src="./media/image2.png" width="370" height="258" />The notification shows **Deployment in progress**. The status changes to **Deployment succeeded** when it's done. Your Machine Learning Experimentation account page opens upon success.
 
 <h2> Scenario 1: Iris walk-through on Local
-=======================================
 
 <h3>Prepare data
-------------
 
 ### Step \#1: Create a new project in the Workbench 
 
