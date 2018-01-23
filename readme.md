@@ -33,7 +33,7 @@ workshop.
 | Scenario | Storage   | Compute for Experimentation | Compute for Operationalization | Remarks                           |
 |----------|-----------|-----------------------------|--------------------------------|-----------------------------------|
 | 1.       | Local     | Local(python)               | Local machine                  |                                   |
-| 1.       | Azure SQL | DSVM (We will provide)      | Local Docker                   | We will provide Azure SQL access. |
+| 2.       | Azure SQL | DSVM (We will provide)      | Local Docker                   | We will provide Azure SQL access. |
 
 - You will need
 
