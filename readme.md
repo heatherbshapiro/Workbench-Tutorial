@@ -583,19 +583,21 @@ P@ssw0rd1
 You can use the following script to create the iris table, and then use
 SSMS or another tool to upload iris.csv to the table.
 
+```sql
 CREATE TABLE \[dbo\].\[iris\](
 
-\[Sepal Length\] \[real\] NULL,
+\[Sepal Length\] \[varchar\](50) NULL,
 
-\[Sepal Width\] \[real\] NULL,
+\[Sepal Width\] \[varchar\](50) NULL,
 
-\[Petal Length\] \[real\] NULL,
+\[Petal Length\] \[varchar\](50) NULL,
 
-\[Petal Width\] \[real\] NULL,
+\[Petal Width\] \[varchar\](50) NULL,
 
 \[Species\] \[varchar\](50) NULL
 
 )
+```
 
 **Ensure that Azure SQL DB Firewall allows connection from your IP
 address**.
