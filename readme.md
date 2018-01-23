@@ -578,7 +578,6 @@ Change the Data Source to Azure SQL:
 ------------------------------------
 
 This part assumes that you have the iris data loaded to an Azure SQL DB.
-P@ssw0rd1
 
 You can use the following script to create the iris table, and then use
 SSMS or another tool to upload iris.csv to the table.
